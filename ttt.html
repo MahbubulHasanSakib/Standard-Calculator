@@ -1,0 +1,56 @@
+﻿<!--
+
+AUTHOR:MAHBUBUL HASAN SAKIB
+
+-->
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="mycss.css" type="text/css"/>
+</head>
+<body>
+   <h1 style="color:slateblue">Standard Calculator</h1>
+    <div class="calculator">
+
+        <div class="cal_top">
+            <input id="res" type="text" value="" maxlength="10"  disabled /><br/>
+        </div>
+        <div class="cal_bottom">
+            <div class="row">
+                <button class="btn"onclick="clr()">C</button>
+                <button class="btn"onclick=" ">+/-</button>
+                <button class="btn"onclick="fun('%')">%</button>
+                <button class="btn btn_clr"onclick="fun('/')">/</button>
+            </div>
+            <div class="row">
+                <button class="btn" onclick="fun('7')">7</button>
+                <button class="btn"onclick="fun('8')">8</button>
+                <button class="btn"onclick="fun('9')">9</button>
+                <button class="btn btn_clr"onclick="fun('*')">X</button>
+            </div>
+            <div class="row">
+                <button class="btn"onclick="fun('4')">4</button>
+                <button class="btn"onclick="fun('5')">5</button>
+                <button class="btn"onclick="fun('6')">6</button>
+                <button class="btn btn_clr"onclick="fun('-')">-</button>
+            </div>
+            <div class="row">
+                <button class="btn"onclick="fun('1')">1</button>
+                <button class="btn"onclick="fun('2')">2</button>
+                <button class="btn"onclick="fun('3')">3</button>
+                <button class="btn btn_clr"onclick="fun('+')">+</button>
+            </div>
+            <div class="row">
+                <button class="btn"onclick="fun('0')">0</button>
+                <button class="btn"onclick="fun('.')">.</button>
+                <button class="btn"onclick="clr_last()">DEL</button>
+                <button style="background-color:#641e78" class="btn"onclick="cal()">=</button>
+            </div>
+        </div>
+        
+    </div>
+    <h4 style="text-align:center;color:rosybrown">Made by:MAHBUBUL HASAN SAKIB</h4>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="prblm.js"></script>
+</body>
+</html>
